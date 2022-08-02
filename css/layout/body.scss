@@ -5,7 +5,6 @@ $grayishBlue: hsl(233, 13%, 49%);
 $lightGrayishBlue: hsl(234, 14%, 74%);
 
 body {
-   background-image: linear-gradient($linearGradient);
    background: $veryLightGrayishBlue; 
    background-image: url('../images/bg-top.svg');
    background-repeat: no-repeat;
