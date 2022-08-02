@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+$font: 'Montserrat', sans-serif;
+$grayishBlue: hsl(233, 13%, 49%);
+$lightGrayishBlue: hsl(234, 14%, 74%);
+$darkGrayishBlue: hsl(232, 13%, 33%);
+$veryLightGrayishBlue: hsl(240, 78%, 98%);
+
+
+body {
+    font-family: $font;
+}
+
+.title {
+    color: $grayishBlue;
+    margin-top: 20%;
+    @include media-breakpoint-up(lg){
+        margin-top: 5%;
+    }
+}
+
+.card-title {
+    color: $grayishBlue;
+    margin-top: 10%;
+    font-size: 1.5rem;
+    @include media-breakpoint-up(lg){
+        font-size: 1.3rem;
+    }
+}
+
+.price {
+    color: $darkGrayishBlue;
+    font-size: 4rem;
+    margin: 5%;
+    span {
+        font-size: 2.5rem;
+    }
+}
+
+.storage {
+    font-size: 1.3rem;
+    margin: 6%;
+    color: $grayishBlue;
+    @include media-breakpoint-up(lg){
+        font-size: 1rem;
+    }
+}
+
+.card-btn {
+    color: $veryLightGrayishBlue; 
+}
+
+.form-check-label {
+    color: $lightGrayishBlue;
+}
+
+.card-title-professional {
+    color: $veryLightGrayishBlue;
+    padding-top: 10% !important;
+    font-size: 1.5rem;
+    @include media-breakpoint-up(lg){
+        font-size: 1.3rem;
+        padding-top: 18% !important;
+    }
+}
+
+.price-professional {
+    color: $veryLightGrayishBlue;
+    font-size: 4rem;
+    margin: 5%;
+    span {
+        font-size: 2.5rem;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 8%;
+        margin-bottom: 10%;
+    }
+}
+
+.storage-professional {
+    font-size: 1.3rem;
+    margin: 6%;
+    color: $veryLightGrayishBlue;
+    @include media-breakpoint-up(lg){
+        font-size: 1rem;
+    }
+}
