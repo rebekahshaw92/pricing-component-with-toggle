@@ -11,7 +11,7 @@ body {
    background-repeat: no-repeat;
    background-position: right -195px top -40px;
    @include media-breakpoint-up(lg){
-    background: url('../images/bg-top.svg'), url('../images/bg-bottom.svg');
+    background-image: url('../images/bg-top.svg'), url('../images/bg-bottom.svg');
     background-repeat: no-repeat;
     background-position: top -37px right -195px, bottom left;
 }
